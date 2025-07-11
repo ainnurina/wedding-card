@@ -26,3 +26,4 @@ function submitData() {
     .then((data) => alert("Data submitted successfully"))
     .catch((error) => console.error("Error:", error));
 }
+
