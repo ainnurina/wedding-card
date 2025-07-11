@@ -8,9 +8,6 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <!--Javascript-->
-        <script src="main.js"></script>
-        
         <h3 class="feature-title">Convert to Excel!</h3>
         <h3>Hello Publish!</h3>
         <form id="ExcelForm" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
@@ -24,9 +21,12 @@
                 <input type="number" class="form-control" placeholder="Age" id="age" name="age">
             </div>
             <div class="form-group">
-                <button type="button">Submit</button>
+                <button type="button" onclick="SubmitData()">Submit</button>
             </div>
         </form>
         <iframe name="hidden_iframe" style="display:none;"></iframe>
+
+        <!--Javascript-->
+        <script src="main.js"></script>
     </body>
 </html>
